@@ -102,7 +102,6 @@ const bnt = document.querySelector("#btn");
 
 function MostrarFiltro(filtro) {
   dbPessoas.innerHTML = "";
-  quantLista.innerText = filtro.length;
 
   for (let i = 0; i < filtro.length; i++) {
     const { _nome, _sobrenome, _email, _cargo } = filtro[i];
